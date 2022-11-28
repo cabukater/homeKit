@@ -7,7 +7,7 @@ import { AngularFireDatabase, AngularFireList } from '@angular/fire/compat/datab
 })
 export class IotDataService {
 
-  private dbPath = '/test';
+  private dbPath = '/Sensors/status';
 
   iotData:  AngularFireList<any>;
 
